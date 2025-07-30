@@ -66,7 +66,7 @@ All tests mock `fetch` and simulate user interactions, including modal flows and
 ## Notes
 - All tests are self-contained and do not require a running backend.
 - The UI and tests are designed to be minimal, readable, and easy to extend.
--
+
 **Note on Filtering:**
 While the backend supports searching/filtering, the frontend implements local filtering for simplicity. All tasks are fetched once and filtered in-memory as the user types, without additional fetch requests. This keeps the challenge simple and focused on UI/UX and test coverage.
 
